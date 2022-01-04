@@ -56,7 +56,7 @@ class Panel3Content extends React.Component {
                         <div className="container">
                             <div className="row pt-5">
                                 <Link to="/add/testimonio" className="mx-auto text-center">
-                                    <img src={btnPlus} className="img-fluid" height="5"/>
+                                    <img alt='+' src={btnPlus} className="img-fluid" style={{height:`25%`}}/>
                                 </Link>
                             </div>
                         </div>
